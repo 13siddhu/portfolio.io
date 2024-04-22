@@ -53,6 +53,42 @@ nav > a:hover{
     
 }
 
+.cpp{
+    background: rgb(37, 82, 84);   
+    width: 200px;
+    height: 100px;
+    border: solid 5px bisque;
+    transition: border-width 0.6s linear;
+    border-radius: 5%;
+    color:white;
+}
+
+.cpp:hover {border-width: 8px;}
+
+.webd{
+    background: rgb(37, 82, 84);   
+    width: 200px;
+    height: 100px;
+    border: solid 5px bisque;
+    transition: border-width 0.6s linear;
+    border-radius: 5%;
+    color:white;
+}
+
+.webd:hover {border-width: 8px;}
+
+.dsa{
+    background: rgb(37, 82, 84);  
+    width: 200px;
+    height: 100px; 
+    border: solid 5px bisque;
+    transition: border-width 0.6s linear;
+    border-radius: 5%;
+    color:white;
+}
+
+.dsa:hover {border-width: 8px;}
+
 
 .bio{
     color: white;
