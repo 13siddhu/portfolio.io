@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(37, 82, 84);
+}
+
+
+header{
+    background-color:rgb(37, 82, 84);
+    color: white;
+    word-spacing: 4vw;
+    justify-content:space-between;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 20px  rgba(0, 0, 0, 0.3);
+}
+
+nav{
+    background:rgb(37, 82, 84);
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 5vw;
+    border-radius: 22px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
+}
+
+nav > a {
+    color:white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+}
+
+nav > a:hover{
+     transition: 0.002s;
+     background: rgb(56, 130,209);
+     color: white;
+}
+
+.btn{
+    border-radius: 5rem;
+    font-size:medium;
+    background-color: rgb(37, 82, 84);
+    color: white;
+    border-color: white;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    position:relative;
+}
+
+.about{
+    
+}
+
+
+.bio{
+    color: white;
+    padding-right: 39vw;
+    margin: 80px;
+    display: block;
+    font-size: 35px;
+    font-weight:800;
+    text-shadow:2px 2px 5px red;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0v;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.insta{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    margin-left: 43vw;
+
+}
+
+.twit{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position:absolute;
+    margin-left: 53vw;
+}
+
+
