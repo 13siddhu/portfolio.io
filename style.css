@@ -9,17 +9,14 @@ header{
     word-spacing: 4vw;
     justify-content:space-between;
     padding: 5px;
-    border-radius: 2px;
-    box-shadow: 2px 2px 20px  rgba(0, 0, 0, 0.3);
-}
+   }
 
 nav{
     background:rgb(37, 82, 84);
-    width: 90vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    margin-left: 5vw;
     border-radius: 22px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
 }
@@ -50,7 +47,11 @@ nav > a:hover{
 }
 
 .about{
-    
+    background:rgb(37, 89, 75);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 22px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
 }
 
 .cpp{
