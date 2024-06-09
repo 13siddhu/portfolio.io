@@ -6,14 +6,13 @@ body{
 header{
     background-color:rgb(37, 82, 84);
     color: white;
-    word-spacing: 4vw;
+    word-spacing: 10vw;
     justify-content:space-between;
-    padding: 5px;
    }
 
 nav{
     background:rgb(37, 82, 84);
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -29,7 +28,7 @@ nav > a {
 }
 
 nav > a:hover{
-     transition: 0.002s;
+     transition: 0.00s;
      background: rgb(56, 130,209);
      color: white;
 }
@@ -48,7 +47,7 @@ nav > a:hover{
 
 .about{
     background:rgb(37, 89, 75);
-    display: flex;
+    display: block;
     justify-content: space-between;
     border-radius: 22px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
@@ -125,6 +124,15 @@ nav > a:hover{
     bottom: 0;
     position:absolute;
     margin-left: 53vw;
+}
+
+@media (max-width: 600px){
+    .imgg{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
 }
 
 
