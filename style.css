@@ -52,7 +52,8 @@ nav > a:hover{
 }
 
 .cpp{
-    background: rgb(37, 82, 84);   
+    background: rgb(37, 82, 84);  
+    display: inline-block; 
     width: 200px;
     height: 100px;
     border: solid 5px bisque;
@@ -65,6 +66,7 @@ nav > a:hover{
 
 .webd{
     background: rgb(37, 82, 84);   
+    display: inline-block;
     width: 200px;
     height: 100px;
     border: solid 5px bisque;
@@ -77,6 +79,7 @@ nav > a:hover{
 
 .dsa{
     background: rgb(37, 82, 84);  
+    display: inline-block;
     width: 200px;
     height: 100px; 
     border: solid 5px bisque;
@@ -141,6 +144,12 @@ nav > a:hover{
         display: block;
         align-items: center;
         flex: 1;
+    }
+
+    .skill{
+        display: block;
+        align-items: center;
+        text-align: center;
     }
 
 }
