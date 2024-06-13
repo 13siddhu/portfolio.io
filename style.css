@@ -10,6 +10,18 @@ header{
     justify-content:space-between;
    }
 
+button{
+    background-color: transparent;
+    border-radius: 5rem;
+    font-size:medium;
+    color:rgb(32, 41, 60);
+    display: inline-block;
+    font-weight: bolder;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+
 nav{
     width: 100%;
     display: flex;
