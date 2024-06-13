@@ -17,6 +17,7 @@ document.addEventListener("click", function(event) {
         element.innerHTML = "Contact";  // Clear innerHTML to remove displayed text
         element.style.color = '';  // Reset color to default
         element.style.background = ''; // Reset background to default
+        element.style.display = 'block';   
       }
     }
   });
@@ -40,6 +41,7 @@ document.addEventListener("click", function(event) {
         element.innerHTML = "About";  // Clear innerHTML to remove displayed text
         element.style.color = '';  // Reset color to default
         element.style.background = ''; // Reset background to default
+        element.style.display = 'block';
       }
     }
   });
