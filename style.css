@@ -159,7 +159,7 @@ nav > a:hover{
     }
 
     .skill{
-        display: block;
+        display: inline-block;
         align-items: center;
         text-align: center;
     }
