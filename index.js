@@ -2,7 +2,6 @@ document.getElementById("gfg").addEventListener("click",GFGfun);
 function GFGfun(){
     document.getElementById("gfg").innerHTML = "PhoneNo.:7007891219\nemail:singhsiddhartha220@gmail.com";
     document.getElementById("gfg").style.color='black';
-    document.getElementById("gfg").style.background = 'azure';
     document.getElementById("abt").style.display= 'block';
 }
 
@@ -26,7 +25,6 @@ document.addEventListener("click", function(event) {
   function about(){
     document.getElementById("abt").innerHTML = "Stream:Engineering\nBranch:CSE\nCollege:VITB";
     document.getElementById("abt").style.color = 'black';
-    document.getElementById("abt").style.background = 'violet';
     document.getElementById("abt").style.display= 'block';
   }
 
