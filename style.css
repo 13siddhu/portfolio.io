@@ -163,6 +163,12 @@ nav > a:hover{
         text-align: center;
     }
 
+    .social{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
 }
 
 
