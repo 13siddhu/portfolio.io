@@ -112,6 +112,14 @@ nav > a:hover{
     text-shadow:2px 2px 5px red;
 }
 
+.weather{
+    font-size: larger;
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(120deg,rgb(9, 9, 46),white,rgb(6, 6, 40));
+}
+
 .footer {
     position: absolute;
     left: 0;
