@@ -177,6 +177,29 @@ nav > a:hover{
         text-align: center;
     }
 
+    .prj{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .forecast{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .weather{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer{
+        display: block;
+        align-items: center;
+    }
+
 }
 
 
