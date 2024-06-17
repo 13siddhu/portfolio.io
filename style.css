@@ -1,6 +1,6 @@
 body{
     background-color:rgb(37, 82, 84);
-     background-image: linear-gradient(60deg, skyblue,grey,purple ,white);
+    background-image: linear-gradient(60deg, skyblue,grey,purple ,white);
 }
 
 
@@ -38,13 +38,13 @@ nav > a {
 
 nav > a:hover{
      transition: 0.00s;
-     background: rgb(56, 130,209);
      color: white;
+
 }
 
 .btn{
     border-radius: 5rem;
-    background-color:aliceblue;
+    background-color:transparent;
     font-size:medium;
     color: lightcoral;
     border-color: white;
@@ -52,7 +52,6 @@ nav > a:hover{
     padding-top: 5px;
     justify-content: space-between;
 }
-
 
 .about{
     background:rgb(37, 89, 75);
@@ -80,7 +79,7 @@ nav > a:hover{
     display: inline-block;
     width: 200px;
     height: 100px;
-    border: solid 5px bisque;
+    border: solid 6px bisque;
     transition: border-width 0.6s linear;
     border-radius: 5%;
     color:white;
@@ -112,6 +111,13 @@ nav > a:hover{
     text-shadow:2px 2px 5px red;
 }
 
+summary{
+    font-size: larger;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+
 .weather{
     font-size: larger;
     display: block;
@@ -119,6 +125,12 @@ nav > a:hover{
     height: 100px;
     background: linear-gradient(120deg,rgb(9, 9, 46),white,rgb(6, 6, 40));
     border-radius: 100%;   
+}
+
+.forecast{
+    text-decoration: none;
+    color: rgb(37, 82, 84);
+    display: inline-block;
 }
 
 .footer {
@@ -172,6 +184,7 @@ nav > a:hover{
         text-align: center;
     }
 
+    
     .social{
         display: block;
         align-items: center;
@@ -184,13 +197,13 @@ nav > a:hover{
         text-align: center;
     }
 
-    .forecast{
+    .weather{
         display: block;
         align-items: center;
         text-align: center;
     }
 
-    .weather{
+    .forecast{
         display: block;
         align-items: center;
         text-align: center;
@@ -200,7 +213,6 @@ nav > a:hover{
         display: block;
         align-items: center;
     }
-
 }
 
 
