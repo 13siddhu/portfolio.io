@@ -65,7 +65,7 @@ nav > a:hover{
     background: rgb(37, 82, 84);  
     display: inline-block; 
     width: 200px;
-    height: 100px;
+    height: auto
     border: solid 5px bisque;
     transition: border-width 0.6s linear;
     border-radius: 5%;
@@ -78,7 +78,7 @@ nav > a:hover{
     background: rgb(37, 82, 84);   
     display: inline-block;
     width: 200px;
-    height: 100px;
+    height: auto
     border: solid 6px bisque;
     transition: border-width 0.6s linear;
     border-radius: 5%;
@@ -91,7 +91,7 @@ nav > a:hover{
     background: rgb(37, 82, 84);  
     display: inline-block;
     width: 200px;
-    height: 100px; 
+    height: auto 
     border: solid 5px bisque;
     transition: border-width 0.6s linear;
     border-radius: 5%;
