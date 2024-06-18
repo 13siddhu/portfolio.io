@@ -24,7 +24,7 @@ document.addEventListener("click", function(event) {
 
   document.getElementById("abt").addEventListener("click",about);
   function about(){
-    document.getElementById("abt").innerHTML = "Stream:Engineering <br /> Branch:CSE <br /> College:VITB <br /> skills: C++,HTML,CSS,javascript";
+    document.getElementById("abt").innerHTML = "Stream:Engineering <br /> Branch:CSE <br /> College:VIT Bhopal <br /> skills: C++,HTML,CSS,javascript";
     document.getElementById("abt").style.color = 'black';
     document.getElementById("abt").style.display= 'block';
   }
